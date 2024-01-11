@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Developing</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar-->
+    <div
+      class="sticky-top shadow shadow-secondary oppacity-25"
+      style="color: #dbe4ec; height: 54px; background: #f8f9fa"
+    >
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container" style="color: #dbe4ec">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-body"
+            id="navbarTogglerDemo01"
+          >
+            <a class="navbar-brand" href="#" style="font-weight: 600"
+              >PrimeInspir</a
+            >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" id="home1" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Udemey</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="courses.html">Udemey Coupans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search for"
+                aria-label="Search"
+                style="border-radius: 0%"
+              />
+              <button
+                class="btn btn-sm btn-success"
+                type="submit"
+                style="border-radius: 0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- back-btutton -->
+    <a
+      href="#home1"
+      class="text-dark rounded-circle bg-success d-flex justify-content-center align-items-center oppacity-75"
+      style="
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        height: 40px;
+        width: 40px;
+      "
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-arrow-up"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
+        />
+      </svg>
+    </a>
+    <!-- home -->
+    <header class="bg-body-secondary" id="home_action">
+      <div class="container">
+        <div class="row py-5 justify-content-between align-items-center">
+          <div class="col-md-5">
+            <h1 class="display-3 fs-3 text-muted" style="font-weight: 200">
+              95% OFF on Web Development Courses on Udemy
+            </h1>
+            <hr class="w-25" />
+            <h2 class="display-3 fs-5">
+              Learn the skills you need to become a web designer or web
+              developer with these 95% off coupons on Udemy courses. Offer
+              expires soon!
+            </h2>
+            <button
+              type="button"
+              class="btn btn-dark active mt-3"
+              data-bs-toggle="button"
+              aria-pressed="true"
+            >
+              <svg
+                class="align-items-center pe-1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="23"
+                fill="currentColor"
+                class="bi bi-person-check-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"
+                />
+                <path
+                  d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                />
+              </svg>
+              View Coupons
+            </button>
+          </div>
+
+          <div class="col-md-6">
+            <div class="page-front-web">
+              <img
+                class="rounded w-100 shadow shadow-4"
+                src="picture/Couponse/Udemy-Coupons-1024x538.jpg"
+                alt=""
+                style="width: 600px; height: 315px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- courses -->
+    <section class="py-5 small" id="courses">
+      <div class="container">
+        <div class="row g-4">
+          <!-- 1 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/WordPress-Course-1.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Complete WordPress Course – Build, Optimize, Succeed
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹5,200</span>
+                  <span class="text-success small">₹449</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>400</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (500)30,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/Master-Modern-JavaScript2.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Mastering Modern JavaScript for Advanced Web Development
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹5,20</span>
+                  <span class="text-success small">₹430</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>355</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (446)25,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/React-Bootstrap-Course3.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  React – Build Appointments App with Create React App (2023)
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹4,20</span>
+                  <span class="text-success small">₹400</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>555</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (210)3,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/Django-4-Course4.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Django 4 – Build Portfolio Project with Bootstrap 5 (2023)
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹5,20</span>
+                  <span class="text-success small">₹430</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>355</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (446)25,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/WordPress-Theme-Development-Course5.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  WordPress Theme Development Course with Bootstrap 5 (2023)
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹5,200</span>
+                  <span class="text-success small">₹449</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>400</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (500)30,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/Web-Design-Development-Course6.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Complete Web Design Development Course from Scratch (2023)
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹5,20</span>
+                  <span class="text-success small">₹430</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>355</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (446)25,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 7 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/Web-Designing-Course7.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Web Designing Course – Beginner to Advanced Level (2023)
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹4,20</span>
+                  <span class="text-success small">₹400</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>555</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (210)3,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 8 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/Dreamweaver-Course8.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Beginners Guide to Adobe Dreamweaver CC (2023)
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹5,20</span>
+                  <span class="text-success small">₹430</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>355</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (446)25,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 9 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/React-Angular-Course9.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Learn React & Angular Step by Step – Build Projects (2023)
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹5,200</span>
+                  <span class="text-success small">₹449</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>400</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (500)30,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 10 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/Front-End-Web-Developer-Course10.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Learn Complete Front-End Web Development Course (2023)
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹5,20</span>
+                  <span class="text-success small">₹430</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>355</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (446)25,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 11 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/Advanced-Web-Development-Course12.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Advanced Web Developer Course – Beginner to Advanced (2023)
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹4,20</span>
+                  <span class="text-success small">₹400</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>555</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (210)3,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 12 -->
+          <div class="col-md-3">
+            <div class="card" style="width: 17rem">
+              <img
+                src="picture/Couponse/Responsive-Web-Design-Course122.jpg"
+                class="w-100 height-auto card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Learn Responsive Web Design with 4 Live Projects (2023)
+                </h5>
+                <p class="card-text mb-0">
+                  <span class="fw-medium">Price:</span>
+                  <span class="text-decoration-line-through small">₹5,20</span>
+                  <span class="text-success small">₹430</span>
+                </p>
+                <p class="mt-0 small">
+                  <span>355</span>
+                  <span class="text-warning">
+                    <svg
+                      class="small align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                    <svg
+                      class="small justify-content-center align-items-center text-center"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-star-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 14.187l-4.389 2.256z"
+                      />
+                    </svg>
+                  </span>
+                  (446)25,434 students
+                </p>
+                <a href="#" class="btn btn-success">
+                  <svg
+                    class="align-items-center pe-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="23"
+                    height="23"
+                    fill="currentColor"
+                    class="bi bi-check2-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"
+                    />
+                    <path
+                      d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+                    />
+                  </svg>
+                  Redeem Coupon</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-5" style="background: #0c0b0bec; color: #dbe4ec">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <h6>PrimeInspire</h6>
+            <p class="text-secondary small mb-0">Jayanagar, Bangalore</p>
+            <p class="text-secondary small mb-0">Karnataka, India.</p>
+            <p class="text-secondary small mb-0">560011</p>
+
+            <a
+              class="text-decoration-none text-white mt-2 small"
+              href="https://anwarmohammdi1390@gmail.com"
+              >anwarmohammadi1390@gmail.com</a
+            >
+          </div>
+          <div class="col-8">
+            <div class="row">
+              <div class="col-3">
+                <h6>Quick Links</h6>
+                <ul class="list-unstyled small">
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Home</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Premium Courses</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Free Courses</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Udemy Coupons</li></a
+                  >
+                </ul>
+              </div>
+              <div class="col-3">
+                <h6>Education</h6>
+                <ul class="list-unstyled small">
+                  <a class="text-decoration-none text-secondary" href="#courses"
+                    ><li>Udemy Courses</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Free Courses</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Tips & Tricks</li></a
+                  >
+                </ul>
+              </div>
+              <div class="col-3">
+                <h6>Other Pages</h6>
+                <ul class="list-unstyled small">
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Privacy Policy</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Terms & Conditions</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Contact</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>FAQ</li></a
+                  >
+                </ul>
+              </div>
+              <div class="col-3">
+                <h6>Connect with us</h6>
+                <ul class="list-unstyled small">
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Home</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Premium Courses</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Free Courses</li></a
+                  >
+                  <a class="text-decoration-none text-secondary" href=""
+                    ><li>Udemy Coupons</li></a
+                  >
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
